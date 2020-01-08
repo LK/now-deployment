@@ -29,7 +29,7 @@ async function run () {
     core.info('this is related issue or pull_request ')
     await createCommentOnPullRequest()
   } else if (context.eventName === 'push') {
-    core.info('this is push event')
+//     core.info('this is push event')
 //     await createCommentOnCommit()
   }
 }
